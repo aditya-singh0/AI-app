@@ -99,7 +99,7 @@ const Card = ({ image }: { image: IImage }) => {
     <li>
       <Link href={`/transformations/${image._id}`} className="collection-card">
         <CldImage
-          src={image.publicId}
+          
           alt={image.title}
           width={image.width}
           height={image.height}
